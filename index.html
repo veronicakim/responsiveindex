@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>responsive index</title>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Shrikhand&display=swap" rel="stylesheet">
+
+	<style>
+
+		a { 
+			text-decoration: none;
+		}
+
+		body {
+			font-size: 15px;
+			margin-top: 100px;
+
+			background-color: #d9bcb0;
+		}
+
+		h1 {
+			font-size: 4em;
+			text-align: center;
+
+			margin: 0;
+			font-family: 'Shrikhand', cursive;
+
+			color: #d19d88;
+			transition: color 0.4s;
+		}
+
+			h1:hover {
+				color: #ffee8f;
+			}
+
+		p {
+			font-size: 1em;
+			text-align: center;
+
+			margin: 5px;
+			font-family: 'Josefin Sans', sans-serif;
+
+			color: white;
+		}
+
+		h2 {
+			font-size:2em;
+			text-align: center;
+
+			margin: 0;
+			font-family: 'Shrikhand', cursive;
+
+			color: #d19d88;
+			transition: color 0.4s;
+		}
+
+			h2:hover {
+					color: #ffee8f;
+				}
+
+		.box {
+			display: flex;
+  			flex-direction: column;
+  			justify-content: center;
+  			align-items: center;
+
+  			width:100vw;
+  			height:50vh;
+		}
+
+			.projects {
+				margin-top: 50px;
+				display: flex;
+				justify-content: center;
+			}
+				.left1 {
+					flex: 1;
+					justify-content: center;
+
+					text-align: right;
+
+					margin-right: 40px;
+
+					width: 150px;
+					height: 60px;
+				}
+				.right1 {
+					flex: 1;
+					justify-content: center;
+
+					margin-left: 20px;
+
+					width: 30vw;
+					height: 60px;
+				}
+
+			.exercises {
+				margin-top: 20px;
+				display: flex;
+				justify-content: center;
+			}
+				.left2 {
+					flex: 1;
+					justify-content: center;
+
+					text-align: right;
+
+					margin-right: 40px;
+
+					width: 150px;
+					height: 60px;
+				}
+				.right2 {
+					flex: 1;
+					justify-content: center;
+
+					margin-left: 20px;
+
+					width: 30vw;
+					height: 60px;
+				}
+					
+
+			#text {
+				text-align: left;
+				/*margin: 10px;*/
+				transition: color 0.2s;
+				
+				font-size: 1em;
+				text-align: center;
+				font-family: 'Josefin Sans', sans-serif;
+
+				color: white;
+			}
+
+				#text:hover {
+					color: #ffee8f;
+				}
+
+	</style>
+
+</head>
+
+<body>
+
+	<div class="box">
+
+			<h1>VERONICA KIM ⭑</h1>
+
+			<p>Parsons CD Class of 2022 • Core Interactive Studio 2020 Spring Section B • kimv366@newschool.edu</p>
+
+			<div class="projects">
+				<h2 class="left1">PROJECTS</h2>
+				<div class="right1">
+					<a id="text" href="https://veronicakim.github.io/studiointeractionproject1/">project 1</a><br>
+					<br>
+					<a id="text" href="https://veronicakim.github.io/studiointeractionproject2/">project 2</a><br>
+					<br>
+					<a id="text" href="">project 3*</a>
+					<!-- <p id="text">project 1</p> -->
+					<!-- <p id="text">project 2</p>
+					<p id="text">project 3*</p> -->
+				</div>
+			</div>
+
+			<br>
+			<br>
+
+			<div class="exercises">
+				<h2 class="left2">EXERCISES</h2>
+				<div class="right2">
+					<a id="text" href="https://veronicakim.github.io/studiointeractionexercise1/">seven principles of typographic contrast</a><br>
+					<br>
+					<a id="text" href="https://veronicakim.github.io/studiointeractionexercise2/">responsive web exercise</a><br>
+					<br>
+					<a id="text" href="">javascript exercise*</a><br>
+					<br>
+					<a id="text" href="">wireframing and prototyping exercise*</a>
+
+					<!-- <p id="text">seven principles of typographic contrast</p> -->
+					<!-- <p id="text">responsive web exercise</p> -->
+					<!-- <p id="text">javascript exercise*</p>
+					<p id="text">wireframing and prototyping exercise*</p> -->
+				</div>
+			</div>
+
+	</div>
+
+</body>
+
+</html>
